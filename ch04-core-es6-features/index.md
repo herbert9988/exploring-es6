@@ -87,7 +87,7 @@ let 和 const 的行为更加严格，并且可能抛出更多的异常（比如
 
 在 ES6 中，JavaScript 终于可以获取文本插入(string interpolation)和多行文本(multi-line strings)的值了。
 
-### 4.3.1 文本插入
+### 4.3.1 文本插入(String interpolation)
 
 在 ES5 中，如果要向字符串中插入值，需要把这些值和字符片段依次串联起来：
 
@@ -101,7 +101,7 @@ let 和 const 的行为更加严格，并且可能抛出更多的异常（比如
         console.log(`(${x}, ${y})`);
     }
 
-### 4.3.2 多行文本
+### 4.3.2 多行文本(Multi-line strings)
 
 模板文字也有助于表示多行文本。
 
@@ -217,7 +217,7 @@ ES6 的模板文字是可以直接跨行的：
 
 ### 4.5.2 通过对象返回多个值
 
-[Object.getOwnPropertyDescriptor()][object​.get​ownproperty​descriptor] 方法返回一个属性描述符对象，这个对象在它的属性(properties)中持有多个值。
+[Object.getOwnPropertyDescriptor()][object​.get​ownproperty​descriptor] 方法返回一个属性描述符对象，这个对象在它的属性(properties)中包含多个值。
 
 [object​.get​ownproperty​descriptor]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/getOwnPropertyDescriptor
 
