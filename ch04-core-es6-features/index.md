@@ -310,7 +310,7 @@ JavaScript 中的命名参数通常是通过对象字面量(object literals)来�
 这种方式有 2 个优点：
 
 - 代码变得更加自描述(self-descriptive)
-- 可以更容易地省略任意参数
+- 更易于省略任意参数
 
 在 ES5 中，你可以像下面这样实现 selectEntries() 方法：
 
