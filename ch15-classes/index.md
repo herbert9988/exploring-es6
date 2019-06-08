@@ -695,7 +695,7 @@ console.log(Reflect.ownKeys(c));
 - 代码不如命名约定优雅
 - 不安全：你可以通过 Reflect.ownKeys()列出一个对象全部属性的 key(包括 symbols)。
 
-### 15.3。5 进一步阅读
+### 15.3.5 进一步阅读
 
 - “Speaking JavaScript”的[“Keeping Data Private”章节](http://speakingjs.com/es5/ch17.html#private_data_for_objects)（覆盖 ES5 相关技术点）。
 
@@ -1608,7 +1608,7 @@ function instantiate(TheClass, args) {
 
 ## 15.10 类的下一步是什么？
 
-类的设计座右铭是"最大程度最小化(maximally minimal)"。讨论过几个高级特性，但最终被丢弃以获得 TC39 一致接受的设计。
+类的设计座右铭是"最大程度最小化(maximally minimal)"。讨论过几个高级特性，但最终被丢弃，以获得 TC39 一致接受的设计。
 
 即将推出的 ES 版本可以扩展这种最小化设计——类将为一些特性如 traits (or mixins)、值对象（如果具有相同内容，不同对象是相等的）和常量类（产生不可变实例）提供基础。
 
